@@ -1,0 +1,55 @@
+.navBar {
+  list-style-type: none;
+  background-color: darkgray;
+  color: white;
+  height: 40px;
+  width: vw;
+}
+
+li {
+  display: inline;
+  float: right;
+  padding: 1em;
+}
+
+h1 {
+  display: block;
+  float: left;
+  font-size: 20px;
+}
+
+.banner {
+  background-color: black;
+  color:yellow;
+  margin-top: 0px;
+  padding: 25px;
+  text-align: center;
+}
+
+.wrapper1{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+}
+
+.wrapper2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1em;
+}
+
+.smallBlock{
+  background: rgb(67, 245, 200);
+}
+
+.largeBlock {
+  background: orange;
+
+}
+
+img{
+  height: 75%;
+  width: 75%;
+}
+
+
